@@ -39,5 +39,5 @@ function getRandom($words) {
 	$qty = count($words) - 1;
 	print_r(implode(', ', $words));
 	$random = rand(0, $qty);
-	echo "<br><b>Random word:</b> " . $words[$random];
+	echo "<br><b>Random word:</b><br>" . $words[$random];
 }
